@@ -1,0 +1,21 @@
+{
+  "name": "5_sgex-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chromium": "playwright test --project=chromium",
+    "test:guest-catalogue": "playwright test UAT-Guest-catalogue.spec.ts --project=chromium",
+    "test:guest-series": "playwright test UAT-Guest-series.spec.ts --project=chromium",
+    "test:guest-episode": "playwright test UAT-Guest-episode.spec.ts --project=chromium",
+    "test:guest-search": "playwright test UAT-Guest-search.spec.ts --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
